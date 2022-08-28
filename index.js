@@ -27,7 +27,7 @@ nuker.on("ready", () => {
                     Nuker: ${nuker.user.tag}
                     Prefix: ${prefix}
     `))
-    nuker.user.setActivity({ name: "Matheros is here!!!", type: "PLAYING" });
+    nuker.user.setActivity({ name: "Izzo is here!!!", type: "PLAYING" });
 });
 
 nuker.on("messageCreate", (message) => {
@@ -54,7 +54,7 @@ nuker.on("messageCreate", (message) => {
     **mass ban ;**
     ${prefix}mb
     `)
-        .setFooter(`Matheros`)
+        .setFooter(`Izzo`)
         .setColor('#303136')
         .setTimestamp(Date.now());
 
