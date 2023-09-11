@@ -27,7 +27,7 @@ nuker.on("ready", () => {
                     Nuker: ${nuker.user.tag}
                     Prefix: ${prefix}
     `))
-    nuker.user.setActivity({ name: "Izzo is here!!!", type: "PLAYING" });
+    nuker.user.setActivity({ name: "barzani Staff", type: "PLAYING" });
 });
 
 nuker.on("messageCreate", (message) => {
